@@ -1,0 +1,109 @@
+name: AI Coding Agents Auto Curator
+
+on:
+  # Run every day at 9am UTC
+  schedule:
+    - cron: "0 9 * * *"
+
+  # Allow manual trigger with custom prompt
+  workflow_dispatch:
+    inputs:
+      prompt:
+        description: "Curator prompt to run"
+        required: false
+        default: "Scan GitHub and the web for new AI coding agents, tools, frameworks, blog posts and videos from the last week. For each find, open a tracking issue, then add all entries to the unreviewed section via a single auto-merged PR so folks can see the agent is managing the repo"
+        type: string
+      task:
+        description: "Curator task"
+        required: false
+        default: "discover"
+        type: choice
+        options:
+          - discover
+          - validate-links
+
+jobs:
+  curate:
+    name: Run AI Coding Agents Curator
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+      pull-requests: write
+      issues: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create agent-bot label (if missing)
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          gh label create "agent-bot" \
+            --description "Commits and PRs raised automatically by the curator agent" \
+            --color "0075ca" \
+            --repo "${{ github.repository }}" \
+          || echo "Label already exists, skipping."
+
+      - name: Install Docker Agent
+        run: |
+          # Download the latest Docker Agent Linux binary
+          curl -L -o /tmp/docker-agent https://github.com/docker/docker-agent/releases/latest/download/docker-agent-linux-amd64
+
+          # Install as a Docker CLI plugin
+          mkdir -p ~/.docker/cli-plugins
+          mv /tmp/docker-agent ~/.docker/cli-plugins/docker-agent
+
+          # Make it executable
+          chmod +x ~/.docker/cli-plugins/docker-agent
+          docker agent --help
+
+      - name: Configure git for agent commits
+        run: |
+          git config user.name "ai-agents-curator-bot"
+          git config user.email "ai-agents-curator-bot@users.noreply.github.com"
+
+      - name: Set curator prompt
+        id: prompt
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            PROMPT="${{ github.event.inputs.prompt }}"
+          else
+            # Default scheduled prompt — scans GitHub + the web, opens a
+            # tracking issue per find, and lands all entries in the
+            # unreviewed section via a single auto-merged PR so contributors
+            # can see the agent is managing the repo.
+            PROMPT="Scan GitHub and the web for new AI coding agents, tools, frameworks, blog posts, and videos published in the last 7 days. For each genuine new entry: (1) open a tracking issue labelled agent-bot, and (2) append it to the 'Recently discovered (auto-added, unreviewed)' section of README.md with a one-line description and a maturity/runtime flag. Put all the additions on a branch and open a single PR (labelled agent-bot) whose body closes every tracking issue, then merge it with 'chore(curator):' so folks can see the agent is managing the repo. Never push directly to main."
+          fi
+          echo "prompt=${PROMPT}" >> $GITHUB_OUTPUT
+
+      - name: Run Curator Agent
+        env:
+          # Primary model is OpenAI's `gpt` provider, authenticated from the
+          # repo's OPENAI_API_KEY secret (a real platform.openai.com key with
+          # billing enabled). To use the free NVIDIA fallback instead, point
+          # OPENAI_API_KEY at secrets.NVIDIA_API_KEY and switch the root
+          # agent's model to `llama` in curator.yaml.
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+        run: |
+          docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
+            "${{ steps.prompt.outputs.prompt }}"
+
+      - name: Summary
+        if: always()
+        run: |
+          echo "## AI Coding Agents Curator Run" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "- **Trigger**: ${{ github.event_name }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Prompt**: ${{ steps.prompt.outputs.prompt }}" >> $GITHUB_STEP_SUMMARY
+          echo "- **Mode**: tracking issue per find + single auto-merged PR (label: agent-bot)" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "Each discovery opens an [agent-bot issue](https://github.com/${{ github.repository }}/issues?q=label%3Aagent-bot);" >> $GITHUB_STEP_SUMMARY
+          echo "the entries land in the **Recently discovered (auto-added, unreviewed)** section of the" >> $GITHUB_STEP_SUMMARY
+          echo "README via a single [agent-bot PR](https://github.com/${{ github.repository }}/pulls?q=label%3Aagent-bot)" >> $GITHUB_STEP_SUMMARY
+          echo "that is merged automatically. Promote entries into the curated sections after a human review." >> $GITHUB_STEP_SUMMARY
