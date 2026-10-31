@@ -38,13 +38,13 @@ jobs:
 
       - name: Create agent-bot label (if missing)
         env:
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           gh label create "agent-bot" \
             --description "Commits and PRs raised automatically by the curator agent" \
             --color "0075ca" \
             --repo "${{ github.repository }}" \
-          || echo "Label already exists, skipping."
+          || echo "Label already exists or creation skipped."
 
       - name: Install Docker Agent
         run: |
@@ -88,8 +88,12 @@ jobs:
           OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ secrets.GH_PAT }}
-          GH_TOKEN: ${{ secrets.GH_PAT }}
+          # Built-in GITHUB_TOKEN (scoped by the `permissions:` block above).
+          # The branch push, label, issue and PR creation all run on this; no
+          # PAT required. Note: PRs opened by GITHUB_TOKEN do not trigger other
+          # workflows, which is fine for this curator.
+          GITHUB_PERSONAL_ACCESS_TOKEN: ${{ github.token }}
+          GH_TOKEN: ${{ github.token }}
         run: |
           docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
             "${{ steps.prompt.outputs.prompt }}"

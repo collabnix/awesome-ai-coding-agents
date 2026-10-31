@@ -144,14 +144,15 @@ This repository is partly maintained by an autonomous **Docker Agent** - the sam
 
 A human then promotes the good finds into the curated sections. The agent definition lives in [`workflow/auto-curator-agent/curator.yaml`](./workflow/auto-curator-agent/curator.yaml) and the schedule in [`.github/workflows/agent-auto-curator.yml`](./.github/workflows/agent-auto-curator.yml).
 
-**Credentials.** The curator's primary model is OpenAI's `gpt` provider, authenticated from the `OPENAI_API_KEY` repository secret. A free NVIDIA-hosted Nemotron model is wired as a documented fallback. Required secrets:
+**Credentials.** The curator's primary model is OpenAI's `gpt` provider, authenticated from the `OPENAI_API_KEY` repository secret. A free NVIDIA-hosted Nemotron model is wired as a documented fallback. All GitHub work (search, labels, issues, PR, merge) runs on the workflow's built-in `GITHUB_TOKEN` - no personal access token required.
 
 | Secret | Used for |
 | --- | --- |
-| `OPENAI_API_KEY` | Primary model (platform.openai.com key with billing) |
-| `GH_PAT` | GitHub search + issue/PR creation (fine-grained PAT) |
+| `OPENAI_API_KEY` | **Required.** Primary model (platform.openai.com key with billing) |
 | `NVIDIA_API_KEY` | Optional free fallback model (build.nvidia.com) |
 | `ANTHROPIC_API_KEY` | Optional, if you switch the agent to a Claude model |
+
+The only repo setting needed is **Settings → Actions → General → Workflow permissions → "Read and write permissions"** plus **"Allow GitHub Actions to create and approve pull requests"** (the workflow also declares `contents`, `issues` and `pull-requests: write` explicitly).
 
 Run it locally with:
 

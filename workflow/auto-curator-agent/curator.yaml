@@ -175,11 +175,14 @@ agents:
              --body "Auto-discovered unreviewed entries.\n\nCloses #<issue1>\nCloses #<issue2>\n..."
          Put one `Closes #<n>` line per issue in the body so merging the PR
          auto-closes all of them.
-      5. Merge the PR:
-           gh pr merge --squash --admin --delete-branch
-         If `--admin` is rejected, fall back to
-         `gh pr merge --squash --auto --delete-branch` and leave it to
-         auto-merge. Do NOT force-push and do NOT rewrite history.
+      5. Merge the PR. Try these in order and stop at the first that
+         succeeds (the token is the built-in GITHUB_TOKEN, which may not
+         support --admin, and auto-merge may be disabled on the repo):
+           a. gh pr merge --squash --delete-branch
+           b. gh pr merge --squash --admin --delete-branch
+           c. gh pr merge --squash --auto --delete-branch
+         If all three fail, leave the PR open and report why in your final
+         message. Do NOT force-push and do NOT rewrite history.
 
       Keep it to ONE PR per run (not one PR per entry), but ONE issue per
       entry so each discovery is individually tracked. If any gh command
