@@ -166,7 +166,11 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [**Gentle-AI**](https://github.com/Gentleman-Programming/gentle-ai) - Configures AI coding agents with persistent memory and development modes. _Maturity: 8150⭐, releases?. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [**Coucou**](https://github.com/Louis-CFM/coucou) - AI coding agents monitor app for macOS. _Maturity: 6804⭐, releases?. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [**SWE-agent**](https://github.com/SWE-agent/SWE-agent) - Attempts to fix GitHub issues autonomously. _Maturity: 20689⭐, releases?. Runtime: cloud. Auto-added 2026-10-31, unreviewed._
+- [**Mini-SWE-agent**](https://github.com/SWE-agent/mini-swe-agent) - Simplified agent solving GitHub issues. _Maturity: 8979⭐, releases?. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [**Qwen Code**](https://github.com/QwenLM/qwen-code) - Open-source terminal AI coding agent. _Maturity: 28841⭐, releases?. Runtime: local. Auto-added 2026-10-31, unreviewed._
 
 ---
 
