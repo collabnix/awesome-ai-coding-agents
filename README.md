@@ -167,7 +167,11 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [johnayoung/flywheel](https://github.com/johnayoung/flywheel) - Control plane for AI coding agents: drives concurrent agents in isolated git worktrees. _Maturity: 2⭐, releases? | n/a. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [clemens33/ae](https://github.com/clemens33/ae) - Run Claude Code, Codex, OpenCode, and other AI coding agents side by side in tmux as one fleet. _Maturity: 5⭐, releases? | n/a. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [openshard/openshard](https://github.com/openshard/openshard) - Receipts for AI coding agents. _Maturity: 3⭐, releases? | n/a. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [lijunzh/koda](https://github.com/lijunzh/koda) - A high-performance AI coding agent built in Rust. _Maturity: 14⭐, releases? | n/a. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [ashlrai/phantom-secrets](https://github.com/ashlrai/phantom-secrets) - Stop AI coding agents from leaking your API keys. _Maturity: 19⭐, releases? | n/a. Runtime: local. Auto-added 2026-10-31, unreviewed._
 
 ---
 
