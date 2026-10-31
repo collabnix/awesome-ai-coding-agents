@@ -167,7 +167,12 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [JameMy0001/visualloop](https://github.com/JameMy0001/visualloop) - VisualLoop: Local-first visual feedback companion for AI coding agents. _Maturity: 1⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-01, unreviewed.
+- [mindattic/MindAttic.Orchestrator](https://github.com/mindattic/MindAttic.Orchestrator) - Background orchestrator for fleets of AI coding agents: queues tickets across every repository and starts work automatically. _Maturity: 0⭐, releases? | n/a_. Runtime: cloud. Auto-added 2026-11-01, unreviewed.
+- [dyoshikawa/rulesync](https://github.com/dyoshikawa/rulesync) - A Utility CLI for AI Coding Agents. _Maturity: 1569⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-01, unreviewed.
+- [vfarcic/dot-agent-deck](https://github.com/vfarcic/dot-agent-deck) - A rich terminal dashboard for monitoring and controlling multiple AI coding agent sessions. _Maturity: 125⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-01, unreviewed.
+- [Saranyadharani/ai-code-review-agent](https://github.com/Saranyadharani/ai-code-review-agent) - AI code review agent. _Maturity: 0⭐, releases? | n/a_. Runtime: cloud. Auto-added 2026-11-01, unreviewed.
+
 
 ---
 
