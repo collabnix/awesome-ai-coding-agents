@@ -167,7 +167,12 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [nek0der/weir](https://github.com/nek0der/weir) - A macOS-native terminal for the AI coding agent era. _Maturity: 3⭐. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [broken-branch/dvb](https://github.com/broken-branch/dvb) - A team of AI coding agents that turns goals into reviewed, merged pull requests on GitHub. _Maturity: 1⭐. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [FAHTHIZ/oasis](https://github.com/FAHTHIZ/oasis) - Open-source AI coding agent and developer workspace with multi-provider models and automation. _Maturity: 5⭐. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [zzet/gortex](https://github.com/zzet/gortex) - High-performance code-intelligence engine for AI agents and IDE, supporting 257 languages. _Maturity: 1949⭐. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [Sanne/incus-spawn](https://github.com/Sanne/incus-spawn) - Isolated Linux workstations for AI coding agents to operate autonomously. _Maturity: 46⭐. Runtime: local. Auto-added 2026-10-31, unreviewed._
+- [asheshgoplani/agent-deck](https://github.com/asheshgoplani/agent-deck) - Terminal session manager for AI coding agents. _Maturity: 1190⭐. Runtime: local. Auto-added 2026-10-31, unreviewed._
 
 ---
 
