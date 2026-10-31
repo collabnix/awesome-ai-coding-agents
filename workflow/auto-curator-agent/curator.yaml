@@ -3,7 +3,7 @@ version: "2"
 
 models:
   # Primary, most reliable. Targets api.openai.com and authenticates from
-  # OPENAI_API_KEY — the workflow wires this to the repo's OPENAI_API_KEY
+  # OPENAI_API_KEY - the workflow wires this to the repo's OPENAI_API_KEY
   # secret (a real platform.openai.com key with billing enabled).
   gpt:
     provider: openai
@@ -25,7 +25,7 @@ metadata:
   author: Collabnix
   license: CC0-1.0
   readme: |
-    AI Coding Agents Curator — an autonomous agent that discovers newly
+    AI Coding Agents Curator - an autonomous agent that discovers newly
     released AI coding agents, tools, frameworks and posts, judges their
     relevance and maturity, flags how they handle code execution and
     credentials, and proposes genuine new entries for the "Recently
@@ -33,7 +33,7 @@ metadata:
 
     Issue + PR by design: the agent opens a tracking issue per discovery,
     adds the entries on a branch, and merges them via a single PR (never a
-    direct push to main). It NEVER edits the hand-curated sections —
+    direct push to main). It NEVER edits the hand-curated sections -
     everything lands in the unreviewed section for a human to promote later.
     This preserves the list's curation quality and leaves a reviewable
     audit trail while keeping the discovery loop fully automated.
@@ -64,11 +64,11 @@ agents:
       ## Two modes of operation
       Read the prompt to decide which task you are running:
 
-      ### Mode A — DISCOVER (default)
+      ### Mode A - DISCOVER (default)
       Find NEW AI-coding-agent projects and resources, judge them, and append
       the good ones to the quarantined section. This is the workflow below.
 
-      ### Mode B — VALIDATE-LINKS
+      ### Mode B - VALIDATE-LINKS
       If the prompt asks you to validate or check links, do NOT discover new
       entries. Instead:
       1. Read README.md and extract every URL across all sections.
@@ -77,8 +77,8 @@ agents:
          final status code.
       3. Build a short report of any links returning 404/410/5xx or that have
          clearly moved (repo renamed, archived, or deleted).
-      4. Do NOT delete or rewrite curated entries automatically — link removal
-         is a human curation decision. Append a dated "Link check — <date>"
+      4. Do NOT delete or rewrite curated entries automatically - link removal
+         is a human curation decision. Append a dated "Link check - <date>"
          note under the unreviewed section and commit with message
          `chore(curator): link check <date>`.
       Then stop.
@@ -110,7 +110,7 @@ agents:
       with `date -d '7 days ago' +%Y-%m-%d` (do NOT hardcode a date).
 
       ### Blog & article discovery (latest published posts)
-      Use duckduckgo for non-GitHub resources — treat recent blogs as
+      Use duckduckgo for non-GitHub resources - treat recent blogs as
       first-class entries. Run targeted queries, e.g.:
       `ai coding agent release`, `new ai code agent tutorial`,
       `site:dev.to ai coding agent`, `site:medium.com ai coding agent`,
@@ -142,7 +142,7 @@ agents:
            brokering them, and whether installers use `curl | bash`. Be
            factual, not alarmist.
       4. Write a one-line entry per accepted candidate in this exact format:
-         `- [title](url) — what it is. _Maturity: <stars⭐, releases? | n/a>. Runtime: <local | sandboxed | cloud>. Auto-added <YYYY-MM-DD>, unreviewed._`
+         `- [title](url) - what it is. _Maturity: <stars⭐, releases? | n/a>. Runtime: <local | sandboxed | cloud>. Auto-added <YYYY-MM-DD>, unreviewed._`
          For GitHub repositories, use `owner/name` as the title.
       5. Entries are appended ONLY to the section titled
          "## Recently discovered (auto-added, unreviewed)". If that section
@@ -188,5 +188,5 @@ agents:
 
       ## Tone for descriptions
       Neutral and factual. This is a reference, not marketing. Honesty about
-      maturity and runtime/credentials is the whole point — it is what keeps
+      maturity and runtime/credentials is the whole point - it is what keeps
       the list trustworthy.

@@ -70,7 +70,7 @@ jobs:
           if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
             PROMPT="${{ github.event.inputs.prompt }}"
           else
-            # Default scheduled prompt — scans GitHub + the web, opens a
+            # Default scheduled prompt - scans GitHub + the web, opens a
             # tracking issue per find, and lands all entries in the
             # unreviewed section via a single auto-merged PR so contributors
             # can see the agent is managing the repo.
