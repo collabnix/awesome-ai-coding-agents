@@ -167,7 +167,12 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [lukasschaefer47/cairn-git-client](https://github.com/lukasschaefer47/cairn-git-client) - A desktop Git client for macOS, Windows, and Linux, featuring repository management, an integrated terminal, and AI coding-agent support. _Maturity: 0⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-02, unreviewed.
+- [behloleaqil1/lair](https://github.com/behloleaqil1/lair) - Run a fleet of AI coding agents with built-in verification systems, open-source. _Maturity: 0⭐, releases? | n/a_. Runtime: local, cloud. Auto-added 2026-11-02, unreviewed.
+- [rekursiv-ai/sagent](https://github.com/rekursiv-ai/sagent) - A coding-agent CLI and Python library supporting async tool calls and recursive spawn. _Maturity: 83⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-02, unreviewed.
+- [Sam-Farooq/codegen-agent](https://github.com/Sam-Farooq/codegen-agent) - A LangGraph loop for automated testing and repair in a sandboxed container. _Maturity: 0⭐, releases? | n/a_. Runtime: sandboxed. Auto-added 2026-11-02, unreviewed.
+- [dunkleschitz/agentsec](https://github.com/dunkleschitz/agentsec) - Offline security tools for AI agents such as coding agents and RAG. _Maturity: 0⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-02, unreviewed.
+- [Niteshkumar-codes/ai-code-review-agent](https://github.com/Niteshkumar-codes/ai-code-review-agent) - An AI code review agent for analyzing repository structures and generating reports. _Maturity: 0⭐, releases? | n/a_. Runtime: cloud. Auto-added 2026-11-02, unreviewed.
 
 ---
 
