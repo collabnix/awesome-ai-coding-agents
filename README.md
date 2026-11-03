@@ -167,7 +167,10 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [FabrizioPiras86/contextbridge](https://github.com/FabrizioPiras86/contextbridge) - Open-source context memory and seamless session handoff for AI coding agents. _Maturity: 0⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-03, unreviewed._
+- [fitlab-ai/agent-infra](https://github.com/fitlab-ai/agent-infra) - Collaboration infrastructure for AI coding agents. _Maturity: 87⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-03, unreviewed._
+- [ScriptedAlchemy/tracedecay](https://github.com/ScriptedAlchemy/tracedecay) - Local semantic code intelligence, project memory, and workflow context for AI coding agents. _Maturity: 85⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-03, unreviewed._
+- [yazan-orcacoder/orca-agent](https://github.com/yazan-orcacoder/orca-agent) - A project focused on building AI coding agents. _Maturity: 0⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-03, unreviewed._
 
 ---
 
