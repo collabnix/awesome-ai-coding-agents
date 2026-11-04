@@ -167,7 +167,11 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [termenbox/termenbox](https://github.com/termenbox/termenbox) - Self-hosted web terminal for AI coding agents: run Claude Code and Codex on your own server from your phone. _Maturity: 4⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-04, unreviewed.
+- [amitamit10/openui-engine](https://github.com/amitamit10/openui-engine) - Open-source MCP server that helps AI coding agents build professional websites. _Maturity: 0⭐, releases? | n/a_. Runtime: local | cloud. Auto-added 2026-11-04, unreviewed.
+- [clawnify/ateam](https://github.com/clawnify/ateam) - Orchestrate a crew of AI coding agents, each in its own git worktree. _Maturity: 15⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-04, unreviewed.
+- [griddynamics/rosetta](https://github.com/griddynamics/rosetta) - An instruction layer for AI coding agents. _Maturity: 370⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-04, unreviewed.
+- [awslabs/aidlc-workflows](https://github.com/awslabs/aidlc-workflows) - AI-Driven Life Cycle adaptive workflow steering rules for AI coding agents. _Maturity: 5672⭐, releases? | n/a_. Runtime: cloud. Auto-added 2026-11-04, unreviewed.
 
 ---
 
