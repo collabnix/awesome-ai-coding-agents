@@ -167,7 +167,10 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [biratdatta/pinpoint](https://github.com/biratdatta/pinpoint) - Chrome extension: click any element on a page, leave a note, and copy structured feedback (selector, component, source file) for Claude Code, Codex, Cursor, or any AI coding agent. _Maturity: 0⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-05, unreviewed._
+- [LoumTechnologies/hickory-docs](https://github.com/LoumTechnologies/hickory-docs) - A new IDE that sits at the intersection of literate programming, AI coding agents, and Jupyter notebooks. _Maturity: 0⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-05, unreviewed._
+- [NatChung/orchd](https://github.com/NatChung/orchd) - Local orchestration of AI coding agents in isolated worktrees. _Maturity: 1⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-05, unreviewed._
+- [zoolok17/agenttalk](https://github.com/zoolok17/agenttalk) - Run a team of AI coding agents, such as Claude Code and Codex, on one project. They handwork to each other and review it across AI companies; a supervisor can keep them running; and a shared, curated memory brings lessons from past work back into later turns. Their messages and records are files in your project: no server, no account. _Maturity: 13⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-05, unreviewed._
 
 ---
 
