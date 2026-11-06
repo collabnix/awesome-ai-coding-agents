@@ -167,7 +167,11 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [underwright/underwright](https://github.com/underwright/underwright) - Control plane for agentic software development: shared task registry, agent coordination, and evidence-backed completion for AI coding agents. _Maturity: 0⭐, releases? | n/a. Runtime: cloud. Auto-added 2026-11-06, unreviewed._
+- [flyingart/gitnut](https://github.com/flyingart/gitnut) - Remote-first git client for watching AI coding agents: IntelliJ's commit graph and diff viewer, every machine in one window. _Maturity: 0⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-06, unreviewed._
+- [paul-gross/amazing-software-factories](https://github.com/paul-gross/amazing-software-factories) - An open analysis of software factories on GitHub: repos built by fleets of AI coding agents, measured daily. _Maturity: 0⭐, releases? | n/a. Runtime: cloud. Auto-added 2026-11-06, unreviewed._
+- [oberon-systems/enggraph](https://github.com/oberon-systems/enggraph) - Engineering Graph for AI coding agents. Code intelligence, persistent memory, plans, and multi-project context over MCP. _Maturity: 1⭐, releases? | n/a. Runtime: cloud. Auto-added 2026-11-06, unreviewed._
+- [GeneticxCln/Codify](https://github.com/GeneticxCln/Codify) - Local AI coding agent: a Python engine orchestrating planner/librarian/fixer/verifier/critic/scribe sub-agents over any provider, with a Tauri desktop chat UI. _Maturity: 1⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-06, unreviewed._
 
 ---
 
