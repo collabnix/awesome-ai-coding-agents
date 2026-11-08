@@ -167,7 +167,11 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [B1ueMu3ic4m/OPCCompany](https://github.com/B1ueMu3ic4m/OPCCompany) - AI coding agents run a 2D company in terminals. _Maturity: 1⭐, n/a. Runtime: local, offline. Auto-added 2023-11-08, unreviewed._
+- [mindattic/MindAttic.Orchestrator](https://github.com/mindattic/MindAttic.Orchestrator) - Orchestrator for AI coding agents. _Maturity: 0⭐, n/a. Runtime: local. Auto-added 2023-11-08, unreviewed._
+- [yhdmgf/AiVerse](https://github.com/yhdmgf/AiVerse) - AI coding agent on Android; full Linux dev environment. _Maturity: 10⭐, n/a. Runtime: local. Auto-added 2023-11-08, unreviewed._
+- [AegeanWorks/AIKit](https://github.com/AegeanWorks/AIKit) - Governance tools for AI coding agents with delivery gates. _Maturity: 5⭐, n/a. Runtime: local, cloud. Auto-added 2023-11-08, unreviewed._
+- [ifelse-codes/praman](https://github.com/ifelse-codes/praman) - Verification toolkit for AI coding agents. _Maturity: 0⭐, n/a. Runtime: local, cloud. Auto-added 2023-11-08, unreviewed._
 
 ---
 
