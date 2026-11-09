@@ -85,6 +85,7 @@ Fire-and-forget engineers that pick up a task (often a GitHub issue) and work as
 - [**Sweep**](https://github.com/sweepai/sweep) - Turns GitHub issues into PRs; started as an OSS bot, now also a JetBrains assistant. `cloud`
 - [**Devlo / Codegen**](https://codegen.com) - Cloud SWE agents that act on issues, Slack and Linear and return reviewed PRs. `$` `cloud`
 - [**Tembo (formerly Solver)**](https://www.tembo.io) - Autonomous agent that investigates and fixes issues across a codebase. `$` `cloud`
+- [**Orbi**](https://github.com/orbi-build/orbi) - Self-hostable GitHub-issue agent with isolated worktrees, independent acceptance review, gated PR merges, and releases on request. [Website](https://orbi.build/?ref=dir-collabnix-awesome-agents). `OSS` `local`
 
 ## Code Review & PR Agents
 
