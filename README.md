@@ -167,7 +167,12 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [FacileStudio/Mycelium](https://github.com/FacileStudio/Mycelium) - Shared agent brain — manage wiki, rules, and skills across AI coding agents and machines. _Maturity: 0⭐, no releases. Runtime: local. Auto-added 2026-11-10, unreviewed._
+- [JinsongRoh/Voice-Command-AI](https://github.com/JinsongRoh/Voice-Command-AI) - Control every AI coding agent on your machine from your phone, with your voice. Claude Code, Codex, Gemini CLI, Antigravity, Grok and more. _Maturity: 0⭐, no releases. Runtime: local. Auto-added 2026-11-10, unreviewed._
+- [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) - Open source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. _Maturity: 28751⭐, no releases. Runtime: local. Auto-added 2026-11-10, unreviewed._
+- [johnpadro73-stack/agent-security23](https://github.com/johnpadro73-stack/agent-security23) - Local-first, open-source security gateway for AI coding agents. Enforce tool-call policies, detect secrets, and audit actions on-device. _Maturity: 0⭐, no releases. Runtime: local. Auto-added 2026-11-10, unreviewed._
+- [jstradej/strideterm](https://github.com/jstradej/strideterm) - Organizes shells, AI coding agents, code reviews, Docker, and Git into workspaces you can access from anywhere. _Maturity: 21⭐, no releases. Runtime: local. Auto-added 2026-11-10, unreviewed._
+- [mindattic/MindAttic.Orchestrator](https://github.com/mindattic/MindAttic.Orchestrator) - Background orchestrator for fleets of AI coding agents: queues tickets across every repository and starts work automatically. _Maturity: 0⭐, no releases. Runtime: local. Auto-added 2026-11-10, unreviewed._
 
 ---
 
