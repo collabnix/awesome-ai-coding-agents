@@ -85,6 +85,7 @@ Fire-and-forget engineers that pick up a task (often a GitHub issue) and work as
 - [**Sweep**](https://github.com/sweepai/sweep) - Turns GitHub issues into PRs; started as an OSS bot, now also a JetBrains assistant. `cloud`
 - [**Devlo / Codegen**](https://codegen.com) - Cloud SWE agents that act on issues, Slack and Linear and return reviewed PRs. `$` `cloud`
 - [**Tembo (formerly Solver)**](https://www.tembo.io) - Autonomous agent that investigates and fixes issues across a codebase. `$` `cloud`
+- [**Reliant**](https://reliantlabs.io) - Agent platform where workflows are YAML files in your repo (agents, shell steps, approval gates, loops until tests pass), started by GitHub, Slack, Gmail or Twilio events or a schedule; with Autopilot on, an issue labelled `agent:ready` comes back as a PR with a failing test and the fix. Runs on your own computer or on a Reliant cloud machine; source-available (BSL 1.1). `freemium` `cloud` `local`
 
 ## Code Review & PR Agents
 
