@@ -167,7 +167,16 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) - Configures AI coding agents like Claude Code, Cursor, OpenCode, Codex, and more. _Maturity: 8881⭐, releases?. Runtime: local. Auto-added 2026-11-12, unreviewed._
+- [matthewwong525/WongStack](https://github.com/matthewwong525/WongStack) - Workflow for AI coding agents like Claude Code and Codex. _Maturity: 7⭐, releases?. Runtime: local. Auto-added 2026-11-12, unreviewed._
+- [tslava/agent-kit](https://github.com/tslava/agent-kit) - Plugins for AI coding agents. _Maturity: n/a, releases?. Runtime: local. Auto-added 2026-11-12, unreviewed._
+- [omatheusmesmo/vintelli](https://github.com/omatheusmesmo/vintelli) - IntelliJ-like terminal IDE for Java, hosts AI coding agents. _Maturity: 4⭐, releases?. Runtime: local. Auto-added 2026-11-12, unreviewed._
+- [opencrude/crude](https://github.com/opencrude/crude) - A hackable ADE for humans and AI coding agents. _Maturity: 7⭐, releases?. Runtime: local. Auto-added 2026-11-12, unreviewed._
+- [DreyzeDev/rbit](https://github.com/DreyzeDev/rbit) - Terminal AI coding agent & CLI. _Maturity: 0⭐, releases?. Runtime: n/a. Auto-added 2026-11-12, unreviewed._
+- [inoio/agents-sandbox](https://github.com/inoio/agents-sandbox) - Sandbox for AI coding agents with microVMs. _Maturity: 87⭐, releases?. Runtime: n/a. Auto-added 2026-11-12, unreviewed._
+- [callstack/agent-device](https://github.com/callstack/agent-device) - Open source device layer for AI coding agents. _Maturity: 5355⭐, releases?. Runtime: n/a. Auto-added 2026-11-12, unreviewed._
+- [pi_angle/kbi](https://github.com/pi_angle/kbi) - AI code agent framework for supporting behavior. _Maturity: n/a, releases?. Runtime: n/a. Auto-added 2026-11-12, unreviewed._
+- [Jagadeesh58/Autonomous-Software-Engineer-Agent](https://github.com/Jagadeesh58/Autonomous-Software-Engineer-Agent) - AI agent for autonomous code generation. _Maturity: n/a, releases?. Runtime: n/a. Auto-added 2026-11-12, unreviewed._
 
 ---
 
