@@ -167,7 +167,11 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [tontinton/maki](https://github.com/tontinton/maki) - An efficient AI coding agent extendable by neovim-like Lua plugins. _Maturity: 1406⭐, released. Runtime: local. Auto-added 2026-11-14, unreviewed._
+- [Suijin-App/Suijin](https://github.com/Suijin-App/Suijin) - Native macOS app that runs Claude Code, Codex and any other AI coding agent side by side. _Maturity: 1⭐, released. Runtime: local. Auto-added 2026-11-14, unreviewed._
+- [antropos17/Aegis](https://github.com/antropos17/Aegis) - Open-source Windows desktop with process and file monitoring for AI coding agents. _Maturity: 162⭐, released. Runtime: local. Auto-added 2026-11-14, unreviewed._
+- [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) - Open-source Ghostty-based macOS terminal for AI coding agents. _Maturity: 28794⭐, released. Runtime: local. Auto-added 2026-11-14, unreviewed._
+- [jeancodeeer/JeanCode](https://github.com/jeancodeeer/JeanCode) - Your AI coding agent, on your terms: bring your own model or key, and nothing goes through our servers because there are none. _Maturity: 1⭐, released. Runtime: local. Auto-added 2026-11-14, unreviewed._
 
 ---
 
