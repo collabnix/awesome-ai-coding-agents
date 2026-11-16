@@ -167,7 +167,16 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [INSANE0777/Awwwards-mcp](https://github.com/INSANE0777/Awwwards-mcp) - Free, open-source MCP server offering design inspiration to AI coding agents like Claude Code and Codex. _Maturity: 796⭐. Runtime: Local. Auto-added 2026-11-16, unreviewed._
+- [EstaxNet/Inferpal](https://github.com/EstaxNet/Inferpal) - Local AI coding agent for various IDEs like Visual Studio, VS Code, and JetBrains. _Maturity: 8⭐. Runtime: Local. Auto-added 2026-11-16, unreviewed._
+- [teamtrailhq/teamtrail](https://github.com/teamtrailhq/teamtrail) - Control layer for AI coding agents ensuring work execution with evidence. _Maturity: 2⭐. Runtime: Local. Auto-added 2026-11-16, unreviewed._
+- [digitalocean/agent-plugins](https://github.com/digitalocean/agent-plugins) - Enables AI coding agents to interact with DigitalOcean services. _Maturity: 1⭐. Runtime: Cloud. Auto-added 2026-11-16, unreviewed._
+- [TheMarkkBradonCollective/deskline](https://github.com/TheMarkkBradonCollective/deskline) - Help desk built with AI coding agents on Cloudflare Workers. _Maturity: n/a. Runtime: Cloud. Auto-added 2026-11-16, unreviewed._
+- [zangjiucheng/ContextDB](https://github.com/zangjiucheng/ContextDB) - Context database shared by multiple AI coding agents. _Maturity: n/a. Runtime: Local. Auto-added 2026-11-16, unreviewed._
+- [abhinavm-web/agent-fork](https://github.com/abhinavm-web/agent-fork) - OS-level time-travel debugger for AI coding agents. _Maturity: n/a. Runtime: Local. Auto-added 2026-11-16, unreviewed._
+- [Yotech-AI/hersir](https://github.com/Yotech-AI/hersir) - Desktop app for AI coding agents to parallel work on kanban boards. _Maturity: 4⭐. Runtime: Local. Auto-added 2026-11-16, unreviewed._
+- [yrn-dev/Operator](https://github.com/yrn-dev/Operator) - Autonomous AI agent terminal. _Maturity: 11⭐. Runtime: Local. Auto-added 2026-11-16, unreviewed._
+- [Kevin-Mok/ai-cli-workflow](https://github.com/Kevin-Mok/ai-cli-workflow) - Reproducible Linux workspace for AI coding agents. _Maturity: n/a. Runtime: Local. Auto-added 2026-11-16, unreviewed._
 
 ---
 
