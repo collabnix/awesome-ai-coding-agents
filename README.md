@@ -167,7 +167,13 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [flisk-sh/flisk](https://github.com/flisk-sh/flisk) - A local runtime for AI coding agents. _Maturity: 51⭐, release status unknown. Runtime: local. Auto-added 2026-11-17, unreviewed._
+- [k-joel/agent-skills](https://github.com/k-joel/agent-skills) - Agent Skills for specific tasks. _Maturity: 1⭐, release status unknown. Runtime: local. Auto-added 2026-11-17, unreviewed._
+- [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) - A terminal for AI coding agents with vertical tabs and notifications. _Maturity: 28811⭐, release status unknown. Runtime: local. Auto-added 2026-11-17, unreviewed._
+- [yrn-dev/Operator](https://github.com/yrn-dev/Operator) - Terminal AI coding agent for autonomy in your computer tasks. _Maturity: 11⭐, release status unknown. Runtime: local. Auto-added 2026-11-17, unreviewed._
+- [Gentleman-Programming/gentle-ai](https://github.com/Gentleman-Programming/gentle-ai) - Configures existing AI coding agents with customized skills. _Maturity: 9321⭐, release status unknown. Runtime: local. Auto-added 2026-11-17, unreviewed._
+- [JetBrains/junie](https://github.com/JetBrains/junie) - JetBrains’ agent that ships code from various environments. _Maturity: 564⭐, release status unknown. Runtime: local. Auto-added 2026-11-17, unreviewed._
+- [earendil-works/pi](https://github.com/earendil-works/pi) - AI agent toolkit providing unified API, agent loop, and more. _Maturity: 122522⭐, release status unknown. Runtime: local. Auto-added 2026-11-17, unreviewed._
 
 ---
 
