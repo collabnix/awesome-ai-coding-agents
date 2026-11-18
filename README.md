@@ -167,7 +167,12 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [unify-apps/unifyapps-headless](https://github.com/unify-apps/unifyapps-headless) - Build UnifyApps solutions from your AI coding agent: Claude Code, Codex, OpenCode, Gemini CLI and Copilot CLI. _Maturity: 0⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-18, unreviewed.
+- [foszto/spartito](https://github.com/foszto/spartito) - Orchestrate a fleet of AI coding agents in parallel, each in its own git worktree, steered through one orchestrator agent. Works with Claude Code and Codex today, more to come. _Maturity: 2⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-18, unreviewed.
+- [Edoardobanks/proxymcp](https://github.com/Edoardobanks/proxymcp) - ProxyMCP is an ultra-fast, local-first API reverse gateway and context firewall engineered specifically for AI coding agents. _Maturity: 0⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-18, unreviewed.
+- [ventura8/Tutti](https://github.com/ventura8/Tutti) - Orchestrate AI coding agents across your machines: Claude Code as conductor, Cursor, Google Antigravity and local models as workers. _Maturity: 0⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-18, unreviewed.
+- [teamtrailhq/teamtrail](https://github.com/teamtrailhq/teamtrail) - The control layer for AI coding agents. Agents do the work, you make the calls, and Teamtrail makes sure both happen, with evidence. _Maturity: 2⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-18, unreviewed.
+
 
 ---
 
