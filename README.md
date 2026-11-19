@@ -167,7 +167,14 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [HighwayofLife/agent-kaizen](https://github.com/HighwayofLife/agent-kaizen) - Continuous improvement tool for AI coding agents. It acts as a plugin for Claude Code that audits token usage, trims context, and routes work to the right model. _Maturity: 1⭐. Runtime: local. Auto-added 2026-11-19, unreviewed._
+- [ozgurcd/gograph](https://github.com/ozgurcd/gograph) - Local-only Go static analysis engine providing deterministic structural awareness to AI coding agents, such as call graphs and impact analysis. _Maturity: 231⭐. Runtime: local. Auto-added 2026-11-19, unreviewed._
+- [mateusz-szczyrzyca/team-agents](https://github.com/mateusz-szczyrzyca/team-agents) - Runs headless AI coding agents (Claude Code, Codex, Gemini) on your Linux machine autonomously, coordinating work across LLM providers. _Maturity: 0⭐. Runtime: local. Auto-added 2026-11-19, unreviewed._
+- [callstack/agent-device](https://github.com/callstack/agent-device) - Device layer for AI coding agents with a CLI and typed Node.js API to control applications across devices locally or in the cloud. _Maturity: 5460⭐. Runtime: local/cloud. Auto-added 2026-11-19, unreviewed._
+- [dmz006/datawatch](https://github.com/dmz006/datawatch) - Bridge between messaging platforms and AI coding agents, enabling management of coding sessions from a mobile device. _Maturity: 7⭐. Runtime: cloud. Auto-added 2026-11-19, unreviewed._
+- [Marnia16/CodePilot-AI](https://github.com/Marnia16/CodePilot-AI) - Autonomous AI coding agent built with Python, Groq, and Streamlit. _Maturity: 0⭐. Runtime: local. Auto-added 2026-11-19, unreviewed._
+- [yrn-dev/Operator](https://github.com/yrn-dev/Operator) - Terminal AI coding agent that is autonomous and supports various operational tasks like research, DevOps, data analysis, and more. _Maturity: 11⭐. Runtime: local. Auto-added 2026-11-19, unreviewed._
+- [Jomkit/agent-dashboard](https://github.com/Jomkit/agent-dashboard) - Zero-dependency, hexagonal architecture observer dashboard for concurrent LLM coding agents. _Maturity: 0⭐. Runtime: local. Auto-added 2026-11-19, unreviewed._
 
 ---
 
