@@ -167,7 +167,16 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [p-droaraujo/apron](https://github.com/p-droaraujo/apron) - A terminal control panel for AI coding agents across all your machines. _Maturity: n/a. Runtime: local. Auto-added 2026-11-19, unreviewed._
+- [highsierraloft/url-shortener](https://github.com/highsierraloft/url-shortener) - A simple URL shortener with expiring links, built spec-first with AI coding agents (Spec Kit + Superpowers). _Maturity: n/a. Runtime: local. Auto-added 2026-11-19, unreviewed._
+- [alfredosdpiii/loki](https://github.com/alfredosdpiii/loki) - Deterministic guardrails for AI coding agents: blocks unsafe edits before they land, with real analyzers and zero runtime dependencies. _Maturity: 7⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-01, unreviewed._
+- [Harini-Manickaraj/aivar-coding-agent](https://github.com/Harini-Manickaraj/aivar-coding-agent) - A terminal-based autonomous AI coding agent built from scratch in Python using the Gemini API, featuring tool-calling for file operations, command execution, and iterative self-debugging. _Maturity: n/a. Runtime: local. Auto-added 2026-11-18, unreviewed._
+- [reachmachine/agent-kit](https://github.com/reachmachine/agent-kit) - Four AI coding agent roles (architect, executor, reviewer, retro) and the checks that make their rules stick. _Maturity: n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [aidan-bailey/loom](https://github.com/aidan-bailey/loom) - A TUI for running multiple AI coding agents in parallel, each isolated in its own git worktree. _Maturity: n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [yrn-dev/Operator](https://github.com/yrn-dev/Operator) - Terminal AI coding agent—Autonomous AI Agent on your computer. Supports Alem AI + Ollama. Works with code, research, automation, DevOps, data analysis, and content generation. _Maturity: 11⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) - An open-source AI coding agent that lives in your terminal. _Maturity: 30811⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [muhamedfazeel/govrn-cli](https://github.com/muhamedfazeel/govrn-cli) - The linter for your AI coding agents. Enforce context budgets, prevent circular prompt loops, audit .govrnignore leaks, and govern rules across Cursor, Claude Code, Copilot, and Windsurf. _Maturity: n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [Gentleman-Programming/engram](https://github.com/Gentleman-Programming/engram) - Persistent memory system for AI coding agents. Agent-agnostic Go binary with SQLite + FTS5, MCP server, HTTP API, CLI, and TUI. _Maturity: 8246⭐, releases? | n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
 
 ---
 
