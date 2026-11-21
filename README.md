@@ -167,7 +167,16 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [amit-yogev/intent-circuit](https://github.com/amit-yogev/intent-circuit) - Detects AI coding agents trying to escape their sandbox, including indirect escapes through files the host runs later. _Maturity: 0⭐, releases? n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [paul-gross/amazing-software-factories](https://github.com/paul-gross/amazing-software-factories) - An open analysis of software factories on GitHub: repos built by fleets of AI coding agents, measured daily. _Maturity: 0⭐, releases? n/a. Runtime: cloud. Auto-added 2026-11-20, unreviewed._
+- [tiagovilasboas/downshift-ai](https://github.com/tiagovilasboas/downshift-ai) - Reduce token usage, optimize LLM costs, and route AI coding agents intelligently across multiple harnesses. _Maturity: 6⭐, releases? n/a. Runtime: cloud. Auto-added 2026-11-20, unreviewed._
+- [wxxb789/hoa](https://github.com/wxxb789/hoa) - Installable agent skills for various AI coding agents via npx skills. _Maturity: 3⭐, releases? n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [QwenLM/qwen-code](https://github.com/QwenLM/qwen-code) - An open-source AI coding agent that lives in your terminal. _Maturity: 30839⭐, releases? yes. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [p-droaraujo/apron](https://github.com/p-droaraujo/apron) - A terminal control panel for AI coding agents across all your machines. _Maturity: 0⭐, releases? n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [lulurun/agentop](https://github.com/lulurun/agentop) - A local observability dashboard for AI coding agents. _Maturity: 0⭐, releases? n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [qte77/ai-agents-research](https://github.com/qte77/ai-agents-research) - Field research and feature analysis for AI coding agents. _Maturity: 0⭐, releases? n/a. Runtime: cloud. Auto-added 2026-11-20, unreviewed._
+- [qtorb/rosmarops-web](https://github.com/qtorb/rosmarops-web) - Website and public Observatory of RosmarOps with dated security changes of AI coding agents. _Maturity: 0⭐, releases? n/a. Runtime: sandboxed. Auto-added 2026-11-20, unreviewed._
+- [feoren/hangar](https://github.com/feoren/hangar) - Run AI coding agents as a team; a desktop app for coordination. _Maturity: 2⭐, releases? n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
 
 ---
 
