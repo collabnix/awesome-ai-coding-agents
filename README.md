@@ -167,7 +167,9 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [Pavanspoojary/code-mode](https://github.com/Pavanspoojary/code-mode) - Universal programmatic execution engine for AI coding agents. _Maturity: 0⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-22, unreviewed.
+- [leonardo-moraes360/toolbelt](https://github.com/leonardo-moraes360/toolbelt) - Toolbelt for AI coding agents: sandbox, graph-based memory/context, agent orchestration and anti-cheating, under a single command (tb). MCP + A2A, in Go. _Maturity: 0⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-18, unreviewed.
+- [veraetogrex-portfolio/solo-sdd](https://github.com/veraetogrex-portfolio/solo-sdd) - Spec-driven development process for AI coding agents (Claude Code, Codex): rules, skills, hooks and a process format with its own validator. A change is done only after a live check and an independent review. _Maturity: 1⭐, releases? | n/a_. Runtime: local. Auto-added 2026-11-16, unreviewed.
 
 ---
 
