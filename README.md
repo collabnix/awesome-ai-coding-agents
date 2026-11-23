@@ -167,7 +167,14 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [arwenizEr/tine](https://github.com/arwenizEr/tine) - The terminal for working with AI coding agents: run Claude Code or Codex and review every change live, on one screen. _Maturity: 0⭐, n/a. Runtime: local. Auto-added 2026-11-23, unreviewed._
+- [rokasklive/opengrok-go-mcp](https://github.com/rokasklive/opengrok-go-mcp) - A lightweight, token-efficient MCP server that gives AI coding agents powerful code search, navigation, and source intelligence through OpenGrok. _Maturity: 10⭐, n/a. Runtime: local. Auto-added 2026-11-23, unreviewed._
+- [tjcrims0nx/openmind-harness](https://github.com/tjcrims0nx/openmind-harness) - OpenMind Harness — cross-platform AI coding-agent runtime with multi-provider support, agent workflows, memory, sandboxing, MCP integrations, and a local dashboard. _Maturity: 0⭐, n/a. Runtime: cross-platform. Auto-added 2026-11-23, unreviewed._
+- [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) - Open-source Ghostty-based macOS terminal with vertical tabs and notifications for AI coding agents. Built for multitasking, organization, and programmability. _Maturity: 28920⭐, n/a. Runtime: local. Auto-added 2026-11-23, unreviewed._
+- [bbaaxx/harness-mdocs](https://github.com/bbaaxx/harness-mdocs) - Shared initiative and wiki memory for AI coding agents across OpenCode, Claude Code, Codex, pi, and Kimi Code. _Maturity: 1⭐, n/a. Runtime: local. Auto-added 2026-11-23, unreviewed._
+- [tstapler/stapler-squad](https://github.com/tstapler/stapler-squad) - Web-based mission control for running multiple AI coding agents (Claude Code, Codex, Gemini CLI, Aider) simultaneously — live dashboard, auto-approval rules, structured review queue. _Maturity: 1⭐, n/a. Runtime: cloud. Auto-added 2026-11-23, unreviewed._
+- [JlassiRafet/IGRIS](https://github.com/JlassiRafet/IGRIS) - A terminal app that sets up AI coding agents on your machine: one builds, one reviews, and your own tests decide when it is done. _Maturity: 1⭐, n/a. Runtime: local. Auto-added 2026-11-23, unreviewed._
+- [yan21jz/termux-coding-agent](https://github.com/yan21jz/termux-coding-agent) - Turns your phone into a coding agent. Builds, tests, reviews & deploys code from a terminal app. Connects to GPT-4 & more. Built with LLMs in mind. _Maturity: 3⭐, n/a. Runtime: mobile. Auto-added 2026-11-23, unreviewed._
 
 ---
 
