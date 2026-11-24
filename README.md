@@ -167,7 +167,11 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [mevarx/GoCode](https://github.com/mevarx/GoCode) - Lightweight terminal AI coding agent in Go. _Maturity: 7⭐, n/a. Runtime: local. Auto-added 2026-11-20, unreviewed._
+- [Kernel-Hunter/vesper](https://github.com/Kernel-Hunter/vesper) - All-in-one AI coding agent for your terminal and desktop. Plans, edits, checks its work, undoes, reviews diffs. _Maturity: 0⭐, n/a. Runtime: local. Auto-added 2026-11-18, unreviewed._
+- [EstaxNet/Inferpal](https://github.com/EstaxNet/Inferpal) - Local AI coding agent for Visual Studio 2026/2022, VS Code, Zed, JetBrains & Neovim via ACP. _Maturity: 9⭐, n/a. Runtime: local. Auto-added 2026-11-17, unreviewed._
+- [flisk-sh/flisk](https://github.com/flisk-sh/flisk) - Local runtime for AI coding agents. Runs multi-service apps from a Compose file. _Maturity: 58⭐, n/a. Runtime: local. Auto-added 2026-11-24, unreviewed._
+- [Arrya841/CODE_AGENT_CLI](https://github.com/Arrya841/CODE_AGENT_CLI) - Python-based AI coding agent CLI for understanding codebases and automating developer tasks. _Maturity: 0⭐, n/a. Runtime: local. Auto-added 2026-11-24, unreviewed._
 
 ---
 
