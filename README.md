@@ -167,7 +167,17 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+
+- [vinhnhq/me](https://github.com/vinhnhq/me) - A blog and résumé site built with an AI coding agent. _Maturity: 0⭐, n/a. Runtime: local._ Auto-added 2026-11-25, unreviewed.
+- [dicapower/noah](https://github.com/dicapower/noah) - Open-source persistent memory for AI coding agents (MCP). _Maturity: 0⭐, n/a. Runtime: local._ Auto-added 2026-11-25, unreviewed.
+- [phatnguyen975/agenix](https://github.com/phatnguyen975/agenix) - Structured software development workflows for AI coding agents. _Maturity: 0⭐, n/a. Runtime: local._ Auto-added 2026-11-21, unreviewed.
+- [OpenMontageInc/Commonroom](https://github.com/OpenMontageInc/Commonroom) - A common workspace for agents, integrates with any provider. _Maturity: 0⭐, n/a. Runtime: local._ Auto-added 2026-11-25, unreviewed.
+- [vitalio/run-block](https://github.com/vitalio/run-block) - CLI & TUI for secure terminal block execution with AI coding agents. _Maturity: 0⭐, n/a. Runtime: local._ Auto-added 2026-11-23, unreviewed.
+- [MntRushmore/pkgsentry](https://github.com/MntRushmore/pkgsentry) - CLI to prevent AI agents from installing problematic packages. _Maturity: 0⭐, n/a. Runtime: local._ Auto-added 2026-11-25, unreviewed.
+- [zanetworker/aimux](https://github.com/zanetworker/aimux) - Mission control for AI coding agents. _Maturity: 21⭐, n/a. Runtime: local._ Auto-added 2026-11-25, unreviewed.
+- [vitalio/agents-rules](https://github.com/vitalio/agents-rules) - Catalog of roles and rules for AI coding agents. _Maturity: 0⭐, n/a. Runtime: local._ Auto-added 2026-11-21, unreviewed.
+- [manaflow-ai/cmux](https://github.com/manaflow-ai/cmux) - macOS terminal with vertical tabs for AI coding agents. _Maturity: 28966⭐, n/a. Runtime: local._ Auto-added 2026-11-25, unreviewed.
+- [aweis89/pcode](https://github.com/aweis89/pcode) - Terminal-native AI agent with background jobs support. _Maturity: 10⭐, n/a. Runtime: local._ Auto-added 2026-11-24, unreviewed.
 
 ---
 
