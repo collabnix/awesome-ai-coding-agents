@@ -167,7 +167,16 @@ docker agent run --yolo ./workflow/auto-curator-agent/curator.yaml \
 
 > Entries below are added automatically by the Docker curator agent and have **not** been human-reviewed. Promote the good ones into the curated sections above via a PR.
 
-_None yet - the curator will populate this on its first scheduled run._
+- [agentmetry](https://github.com/blitzcrieg1/agentmetry) - Open-source security for AI coding agents: record, detect and block at the tool boundary, with a verifiable audit trail. _Maturity: 51⭐. Runtime: local. Auto-added 2026-11-27, unreviewed._
+- [webforge-engine](https://github.com/Hirak21/webforge-engine) - Autonomous web engineering & creative direction harness - enforced file-backed architecture, design contracts, and automated QA gates. _Maturity: 0⭐. Runtime: local. Auto-added 2026-11-27, unreviewed._
+- [MeetProxy](https://github.com/SergeyChere/MeetProxy) - Connects AI coding agents to real compute hardware, enabling autonomous execution, benchmarking, monitoring, and optimization. _Maturity: 0⭐. Runtime: local. Auto-added 2026-11-24, unreviewed._
+- [agent-nihil-obstat](https://github.com/happy520ai/agent-nihil-obstat) - Evidence-bound task and release verdicts for AI coding agents. _Maturity: 0⭐. Runtime: cloud. Auto-added 2026-11-27, unreviewed._
+- [RepoFleet](https://github.com/mwitkewiz1/RepoFleet) - A solo dev's house kit and fleet tool for AI coding agents across many repos. _Maturity: 1⭐. Runtime: local. Auto-added 2026-11-27, unreviewed._
+- [dbvalet](https://github.com/dbvalet/dbvalet) - Run an AI coding agent with a temporary PostgreSQL login it never sees. _Maturity: 0⭐. Runtime: local. Auto-added 2026-11-27, unreviewed._
+- [agent-dashcam](https://github.com/cheapbutsimilar/agent-dashcam) - A dashcam & time-machine debugger for AI coding agents — replay every file edit, command, and rollback. _Maturity: 0⭐. Runtime: local. Auto-added 2026-11-27, unreviewed._
+- [gemma4-autonomous-software-engineering-agent](https://github.com/Santosdevbjj/gemma4-autonomous-software-engineering-agent) - Software engineering agent with AST repository parsing, issue-to-patch planning, and automated validation. _Maturity: 0⭐. Runtime: cloud. Auto-added 2026-11-27, unreviewed._
+- [llm-agents-docker](https://github.com/FelipePy/llm-agents-docker) - Run LLM coding agents in a Docker container that only sees your current project. _Maturity: 1⭐. Runtime: container. Auto-added 2026-11-27, unreviewed._
+- [pi_agent_rust](https://github.com/Dicklesworthstone/pi_agent_rust) - High-performance AI coding agent CLI written in Rust with zero unsafe code. _Maturity: 2013⭐. Runtime: local. Auto-added 2026-11-27, unreviewed._
 
 ---
 
