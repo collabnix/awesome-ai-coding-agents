@@ -50,6 +50,7 @@ Agents that run in your terminal, edit files in place, and execute commands in y
 - [**Crush**](https://github.com/charmbracelet/crush) - Charm's glamorous terminal coding agent; multi-model, MCP-capable, LSP-aware. `OSS` `local`
 - [**Plandex**](https://github.com/plandex-ai/plandex) - Terminal agent built for large, multi-file tasks with a persistent plan and diff-review sandbox before changes land. `OSS` `local`
 - [**Mentat**](https://github.com/AbanteAI/mentat) - CLI assistant that coordinates edits across multiple files and locations from a single prompt. `OSS` `local`
+- [**Verboo Code**](https://github.com/verbeux-ai/verboo-code-v2) - Tauri desktop coding agent with a command-line launcher for its browser workspace. Verboo sign-in is required for model access. `OSS` `local`
 
 ## IDE & Editor Agents
 
